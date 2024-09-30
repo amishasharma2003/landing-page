@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        /* Main section styling */
+        .main {
+            padding: 50px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .cta {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .cta:hover {
+            background-color: #45a049;
+        }
+
+        /* Form Styling */
+        form {
+            margin-top: 30px;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 50%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Cab Karo</h1>
+        <p>We offer the best solutions for your ride</p>
+    </header>
+
+    <!-- Main Section with Call to Action -->
+    <div class="main">
+        <h2>Get Started with Us Today!</h2>
+        <pSearch for ride.</p>
+
+        <!-- Form Section -->
+        <form action="/submit" method="POST">
+            <input type="text" name="name" placeholder="Enter your pick up point" required><br>
+            <input type="email" name="email" placeholder="Enter your destination point" required><br>
+            <input type="submit" value="Search">
+        </form>
+
+        <!-- Call to Action Button -->
+        <button class="cta">Apply Code</button>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Cab Karo. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
